@@ -143,7 +143,7 @@ An AI-powered business intelligence platform that analyzes competitors, pricing 
 
 #  Connect With Me
 
-- 💼 **LinkedIn:** https://www.linkedin.com/in/mrigank-kumawat
+- 💼 **LinkedIn:** [https://www.linkedin.com/in/mrigank-kumawat](https://www.linkedin.com/in/mrigank-kumawat-572b41317/)
 - 📧 **Email:** mrigankkumawat@gmail.com
 
 ---
