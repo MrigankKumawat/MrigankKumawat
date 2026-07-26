@@ -117,16 +117,21 @@ An AI-powered business intelligence platform that analyzes competitors, pricing 
 
 ---
 
-#  GitHub Stats
+# 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=MrigankKumawat&theme=tokyonight&hide_border=true"/>
+<img src="./github-stats.svg" alt="Mrigank Kumawat's GitHub Stats" />
+
+<br/><br/>
+
+<img src="./top-langs.svg" alt="Most Used Languages" />
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=MrigankKumawat&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 </div>
-
-> **Note:** GitHub Readme Stats is temporarily unavailable. The stats and language cards can be added back once the service is available or hosted separately.
-
 ---
 
 #  Areas of Interest
