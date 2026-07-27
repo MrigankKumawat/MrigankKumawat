@@ -121,24 +121,15 @@ An AI-powered business intelligence platform that analyzes competitors, pricing 
 
 <div align="center">
 
-<img
-  src="https://raw.githubusercontent.com/MrigankKumawat/MrigankKumawat/main/github-stats.svg?v=3"
-  alt="Mrigank Kumawat's GitHub Stats"
-/>
+<img src="./github-stats.svg" alt="Mrigank Kumawat's GitHub Stats" />
 
 <br/><br/>
 
-<img
-  src="https://raw.githubusercontent.com/MrigankKumawat/MrigankKumawat/main/top-langs.svg?v=3"
-  alt="Most Used Languages"
-/>
+<img src="https://raw.githubusercontent.com/MrigankKumawat/MrigankKumawat/main/top-langs.svg?v=2" alt="Most Used Languages" />
 
 <br/><br/>
 
-<img
-  src="https://raw.githubusercontent.com/MrigankKumawat/MrigankKumawat/main/streak.svg?v=3"
-  alt="GitHub Streak"
-/>
+<img src="./streak.svg" alt="GitHub Streak" />
 
 </div>
 
