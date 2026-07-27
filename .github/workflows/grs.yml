@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout profile repository
         uses: actions/checkout@v4
 
       - name: Generate GitHub Stats
@@ -24,13 +24,33 @@ jobs:
           path: github-stats.svg
           token: ${{ secrets.GH_PAT }}
 
+      - name: Clone public repositories
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          mkdir -p repos
+
+          gh repo list MrigankKumawat \
+            --limit 100 \
+            --source \
+            --visibility public \
+            --json nameWithOwner \
+            --jq '.[].nameWithOwner' > repositories.txt
+
+          while IFS= read -r repo; do
+            name="${repo#*/}"
+
+            echo "Cloning $repo"
+
+            gh repo clone "$repo" "repos/$name" -- --depth 1 || \
+              echo "Failed to clone $repo"
+          done < repositories.txt
+
       - name: Generate Top Languages
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=MrigankKumawat&layout=compact&theme=tokyonight&hide_border=true
-          path: top-langs.svg
-          token: ${{ secrets.GH_PAT }}
+        env:
+          REPOS_DIR: repos
+        run: |
+          python scripts/generate_languages.py
 
       - name: Update GitHub Streak
         run: |
@@ -40,7 +60,6 @@ jobs:
             "https://streak-stats.demolab.com/?user=MrigankKumawat&theme=tokyonight&hide_border=true" \
             --output streak-new.svg
 
-          # Only replace the existing card when the download succeeds
           mv streak-new.svg streak.svg
 
       - name: Commit generated cards
