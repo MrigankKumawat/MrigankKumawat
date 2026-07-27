@@ -37,8 +37,8 @@ I enjoy building AI-powered applications and backend systems that solve practica
 <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logoColor=white"/>
 </p>
 
 ## 🌐 Backend Development
@@ -46,7 +46,7 @@ I enjoy building AI-powered applications and backend systems that solve practica
 <p>
 <img src="https://img.shields.io/badge/Flask-FFFFFF?style=for-the-badge&logo=flask&logoColor=000000"/>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
 <img src="https://img.shields.io/badge/Express.js-FFFFFF?style=for-the-badge&logo=express&logoColor=000000"/>
 </p>
 
@@ -65,35 +65,35 @@ I enjoy building AI-powered applications and backend systems that solve practica
 <img src="https://img.shields.io/badge/GitHub-24292F?style=for-the-badge&logo=github&logoColor=white"/>
 <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white"/>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=000000"/>
 </p>
 
 ---
 
-#  Featured Projects
+# 🚀 Featured Projects
 
-##  LaunchIQ
+## LaunchIQ
 
 An AI-powered business intelligence platform that analyzes competitors, pricing strategies, product positioning, and market insights using AI-driven data analysis.
 
 ---
 
-##  Retrieval-Augmented Generation (RAG)
+## Retrieval-Augmented Generation (RAG)
 
--  Multi-PDF RAG Assistant
--  Book RAG Assistant
--  AI-powered Question Answering System
+- Multi-PDF RAG Assistant
+- Book RAG Assistant
+- AI-powered Question Answering System
 
 ---
 
-##  Machine Learning Projects
+## Machine Learning Projects
 
--  Flight Price Prediction
--  Taxi Fare Prediction
--  Insurance Charges Prediction
--  House Price Prediction
--  Health Prediction
--  Employee Attrition Prediction
+- Flight Price Prediction
+- Taxi Fare Prediction
+- Insurance Charges Prediction
+- House Price Prediction
+- Health Prediction
+- Employee Attrition Prediction
 
 ### These projects include:
 
@@ -106,7 +106,7 @@ An AI-powered business intelligence platform that analyzes competitors, pricing 
 
 ---
 
-##  Backend Development
+## Backend Development
 
 - REST API Development
 - Authentication & Authorization
@@ -121,34 +121,44 @@ An AI-powered business intelligence platform that analyzes competitors, pricing 
 
 <div align="center">
 
-<img src="./github-stats.svg" alt="Mrigank Kumawat's GitHub Stats" />
+<img
+  src="https://raw.githubusercontent.com/MrigankKumawat/MrigankKumawat/main/github-stats.svg?v=2"
+  alt="Mrigank Kumawat's GitHub Stats"
+/>
 
 <br/><br/>
 
-<img src="./top-langs.svg" alt="Most Used Languages" />
+<img
+  src="https://raw.githubusercontent.com/MrigankKumawat/MrigankKumawat/main/top-langs.svg?v=2"
+  alt="Most Used Languages"
+/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=MrigankKumawat&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img
+  src="https://streak-stats.demolab.com?user=MrigankKumawat&theme=tokyonight&hide_border=true"
+  alt="GitHub Streak"
+/>
 
 </div>
----
-
-#  Areas of Interest
-
--  Artificial Intelligence
--  Machine Learning
--  Large Language Models (LLMs)
--  Retrieval-Augmented Generation (RAG)
--  Backend Development
--  Data Science
--  AI-powered Software Applications
 
 ---
 
-#  Connect With Me
+# 💡 Areas of Interest
 
-- 💼 **LinkedIn:** [https://www.linkedin.com/in/mrigank-kumawat](https://www.linkedin.com/in/mrigank-kumawat-572b41317/)
+- Artificial Intelligence
+- Machine Learning
+- Large Language Models (LLMs)
+- Retrieval-Augmented Generation (RAG)
+- Backend Development
+- Data Science
+- AI-powered Software Applications
+
+---
+
+# 🤝 Connect With Me
+
+- 💼 **LinkedIn:** https://www.linkedin.com/in/mrigank-kumawat-572b41317/
 - 📧 **Email:** mrigankkumawat@gmail.com
 
 ---
