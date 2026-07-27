@@ -32,12 +32,23 @@ jobs:
           path: top-langs.svg
           token: ${{ secrets.GH_PAT }}
 
+      - name: Update GitHub Streak
+        run: |
+          curl --fail --location \
+            --retry 3 \
+            --retry-delay 5 \
+            "https://streak-stats.demolab.com/?user=MrigankKumawat&theme=tokyonight&hide_border=true" \
+            --output streak-new.svg
+
+          # Only replace the existing card when the download succeeds
+          mv streak-new.svg streak.svg
+
       - name: Commit generated cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add github-stats.svg top-langs.svg
+          git add github-stats.svg top-langs.svg streak.svg
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
