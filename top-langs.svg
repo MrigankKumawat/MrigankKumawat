@@ -2,8 +2,8 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="400"
-    height="206"
-    viewBox="0 0 400 206"
+    height="240"
+    viewBox="0 0 400 240"
 >
 
     <rect
@@ -45,7 +45,7 @@
             text-anchor="end"
             font-family="Segoe UI, Ubuntu, sans-serif"
         >
-            76.39%
+            79.25%
         </text>
         
         <circle cx="28" cy="114" r="5" fill="#E34C26" />
@@ -68,7 +68,7 @@
             text-anchor="end"
             font-family="Segoe UI, Ubuntu, sans-serif"
         >
-            21.10%
+            17.93%
         </text>
         
         <circle cx="28" cy="148" r="5" fill="#F1E05A" />
@@ -91,10 +91,10 @@
             text-anchor="end"
             font-family="Segoe UI, Ubuntu, sans-serif"
         >
-            1.88%
+            1.60%
         </text>
         
-        <circle cx="28" cy="182" r="5" fill="#563D7C" />
+        <circle cx="28" cy="182" r="5" fill="#3178C6" />
 
         <text
             x="42"
@@ -103,7 +103,7 @@
             font-size="14"
             font-family="Segoe UI, Ubuntu, sans-serif"
         >
-            CSS
+            TypeScript
         </text>
 
         <text
@@ -114,7 +114,30 @@
             text-anchor="end"
             font-family="Segoe UI, Ubuntu, sans-serif"
         >
-            0.62%
+            0.64%
+        </text>
+        
+        <circle cx="28" cy="216" r="5" fill="#563D7C" />
+
+        <text
+            x="42"
+            y="221"
+            fill="#C9D1D9"
+            font-size="14"
+            font-family="Segoe UI, Ubuntu, sans-serif"
+        >
+            CSS
+        </text>
+
+        <text
+            x="365"
+            y="221"
+            fill="#2F81F7"
+            font-size="14"
+            text-anchor="end"
+            font-family="Segoe UI, Ubuntu, sans-serif"
+        >
+            0.58%
         </text>
         
 
